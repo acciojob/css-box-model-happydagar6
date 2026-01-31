@@ -1,2 +1,26 @@
+.demo-box {
+    /* By default, box-sizing is 'content-box'. 
+       This means the width property sets the width of the content area only.
+       Padding and border are added outside of this width.
+    */
+    box-sizing: content-box; 
 
-/* Your CSS Code here. */
+    /* Width of the content area as shown in the image */
+    width: 300px;
+
+    /* Padding between the content and the border */
+    padding: 50px;
+
+    /* The solid blue border */
+    border: 15px solid blue;
+
+    /* Margin outside the border */
+    margin: 20px;
+
+    /* The background color, which fills the content and padding areas */
+    background-color: lightblue;
+
+    /* Additional styles to match the text appearance in the image */
+    font-family: monospace;
+    text-align: center;
+}
